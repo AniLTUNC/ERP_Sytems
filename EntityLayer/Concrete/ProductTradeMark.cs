@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 
 namespace EntityLayer.Concrete
 {
-    public class Category
+    public class ProductTradeMark
     {
         [Key]
         public int Id { get; set; }
-        public string CategoryName { get; set; }
-        public string CategoryCode { get; set; }
+        public string ProductCode { get; set; }
+        public string TradeCode { get; set; }
     }
 }

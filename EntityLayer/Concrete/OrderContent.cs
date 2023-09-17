@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 
 namespace EntityLayer.Concrete
 {
-    public class Category
+    public class OrderContent
     {
         [Key]
         public int Id { get; set; }
-        public string CategoryName { get; set; }
-        public string CategoryCode { get; set; }
+        public string OrderContentCode { get; set; }
+        public string OrderContentTitle { get; set;}
     }
 }
