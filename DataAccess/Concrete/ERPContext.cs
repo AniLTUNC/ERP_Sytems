@@ -12,7 +12,7 @@ namespace DataAccessLayer.Concrete
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("server=DESKTOP-DCJKM91\\SQLEXPRESS;database=ERPDb; Integrated Security=true;");
+            optionsBuilder.UseSqlServer("");
         }
 
 
