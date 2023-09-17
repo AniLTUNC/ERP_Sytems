@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataAccessLayer.Concrete
+namespace EntityLayer.Concrete
 {
-    public class SMContext
+    public class Order
     {
     }
 }
