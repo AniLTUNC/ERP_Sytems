@@ -26,6 +26,8 @@ namespace ERP_Systems.Controllers
             {
                 return NotFound();
             }
+            //Ürünü hangi özelliğine göre listelenecek burada eklenebilir.
+            //Dto - Response oluşturulup kullanılabilir.
             return await _context.Products.ToListAsync();
         }
 
